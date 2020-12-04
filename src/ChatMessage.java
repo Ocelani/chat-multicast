@@ -2,8 +2,6 @@
 import java.io.*;
 /*
  * Classe que lida com as mensagens entre o client e o server.
- * A mensagem é tratada como um objeto por ser mais prático
- * e menos verboso, sem haver a necessidade de contar os bytes
  */
 
 public class ChatMessage implements Serializable {
